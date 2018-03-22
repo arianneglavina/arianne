@@ -7,7 +7,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 @font-face {
 	font-family:"Apercu Pro";
-	src:url("fonts/apercu-pro.ttf");
+	src:url("fonts/Apercu.woff");
 }
 
 body {
@@ -351,7 +351,7 @@ footer p {
 		}
 
 		.top a {
-			right:-75px;
+			right:-60px;
 		}
 
 		.bio p {
@@ -366,6 +366,7 @@ footer p {
 
 		.service {
 			padding:0;
+			width:300px;
 		}
 
 		.serviceItem p {
@@ -416,7 +417,7 @@ footer p {
 		}
 
 		.connect ul li a {
-			font-size:1.3rem;
+			font-size:1.6rem;
 		}
 
 		.connect ul {
@@ -448,6 +449,34 @@ footer p {
 		.service p {
 			font-size:.8rem;
 			margin:.5;
+		}
+		
+		.modal {
+			flex-direction: column;
+		}
+
+		.modal__content img {
+			width:100%;
+		}
+
+		.modal__content {
+			padding-top:75px;
+			padding-left:15px;
+			width:230px;
+			flex-direction: column;
+		}
+
+		.modal__content h2 {
+			padding-top:20px;
+			font-size:1.6rem;
+		}
+
+		.modal__content p {
+			font-size:.9rem;
+		}
+
+		.content {
+			width: 250px;
 		}
 
 }

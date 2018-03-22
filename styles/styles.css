@@ -7,7 +7,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 @font-face {
 	font-family:"Apercu Pro";
-	src:url("fonts/Apercu.woff");
+	src:url("/fonts/Apercu.woff");
 }
 
 body {
@@ -360,23 +360,6 @@ footer p {
 			margin:0;
 		}
 
-		.services p { 
-			font-size:1.6rem;
-		}
-
-		.service {
-			padding:0;
-			width:300px;
-		}
-
-		.serviceItem p {
-			font-size:1rem;
-		}
-
-		.serviceItem:before {
-			width:100px;
-		}
-
 		.bio {
 			padding-top:200px;
 		}
@@ -437,9 +420,6 @@ footer p {
 			margin:0;
 			padding-top:5px;
 		}
-		.service {
-			flex-direction: column;	
-		}
 
 		.service h4 {
 			font-size:1.2rem;
@@ -451,6 +431,24 @@ footer p {
 			margin:.5;
 		}
 		
+		.services p { 
+			font-size:1.6rem;
+		}
+
+		.service {
+			padding:0;
+			width:300px;
+			flex-direction: column;	
+		}
+
+		.serviceItem p {
+			font-size:1rem;
+		}
+
+		.serviceItem:before {
+			width:100px;
+		}
+
 		.modal {
 			flex-direction: column;
 		}
